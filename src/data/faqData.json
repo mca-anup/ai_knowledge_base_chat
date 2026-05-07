@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is React?",
+    "answer": "React is a JavaScript library for building user interfaces, developed by Facebook."
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "Go to the Settings page, select 'Security', and click 'Reset Password'."
+  },
+  {
+    "question": "What is Vite?",
+    "answer": "Vite is a modern frontend build tool that provides fast development and optimized production builds."
+  },
+  {
+    "question": "How do I install dependencies?",
+    "answer": "Run 'npm install' or 'yarn install' in your project directory to install all required packages."
+  },
+  {
+    "question": "What is JSX?",
+    "answer": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code inside React components."
+  },
+  {
+    "question": "How do I create a new component?",
+    "answer": "Create a new .jsx file, define a function or class that returns JSX, and export it for use in other parts of your app."
+  },
+  {
+    "question": "What is useState in React?",
+    "answer": "useState is a React hook that lets you add state to functional components."
+  },
+  {
+    "question": "How do I navigate between pages?",
+    "answer": "Use React Router's <Link> component or the useNavigate hook to move between routes."
+  },
+  {
+    "question": "What is an API?",
+    "answer": "An API (Application Programming Interface) is a set of rules that allows software applications to communicate with each other."
+  },
+  {
+    "question": "How do I run tests?",
+    "answer": "Use 'npm test' or 'yarn test' to run unit tests configured with Jest and React Testing Library."
+  }
+]
