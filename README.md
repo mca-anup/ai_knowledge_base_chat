@@ -2,13 +2,13 @@
 An AI knowledge base chat in React is essentially a chatbot interface that combines a FAQ-style knowledge base with an AI-powered assistant. The idea is to let users either browse structured answers (FAQs) or ask free-form questions that the AI can handle.
  
 
-AI Knowledge Base Small PoC 
+# AI Knowledge Base PoC 
 
-Overview  
+# Overview  
 
 This proof of concept demonstrates how an AI‑powered backend can handle conversational queries and provide intelligent responses. Instead of connecting directly to a single model provider (like OpenAI), it uses Hugging Face’s router endpoint, which acts as a gateway to multiple models hosted on Hugging Face Hub. 
 
-How It Works 
+# How It Works 
 
 Backend Service: An Express.js server exposes an /api/chat endpoint. 
 
@@ -26,9 +26,9 @@ Enterprise‑Friendly: Credentials stay in the backend, reducing exposure in cli
 
 In short, this PoC shows how you can build a modular, secure, and adaptable knowledge base chatbot — whether you’re using Hugging Face’s router for real AI responses or mock data for testing in blocked environments. 
 
-Architecture Flow (Textual Diagram) 
+# Architecture Flow (Textual Diagram) 
 
-Frontend (React + UI) 
+# Frontend (React + UI) 
 
 Users type questions or interact with the knowledge base interface. 
 
@@ -52,7 +52,7 @@ Returns a structured response back to the backend.
 
  
 
-Backend Response Handling 
+# Backend Response Handling 
 
 Parses Hugging Face’s output. 
 
@@ -68,7 +68,7 @@ Maintains conversation history for context.
 
 Allows developers to test UI flows without backend complexity. 
 
-Key Features 
+# Key Features 
 
 Atomic Design Principles: Frontend built with atoms, molecules, organisms, and templates for modularity. 
 
@@ -82,6 +82,6 @@ Flexible AI Integration: Hugging Face router allows seamless model switching.
 
 Resilience: Mock responses ensure functionality even when external endpoints are blocked. 
 
-Executive Summary:  
+# Executive Summary:  
 
 This PoC demonstrates an AI Knowledge Base system that integrates with Hugging Face’s router endpoint to deliver conversational intelligence. The architecture ensures security, flexibility, and resilience, while the frontend showcases atomic design, reusable components, and unit testing. 
